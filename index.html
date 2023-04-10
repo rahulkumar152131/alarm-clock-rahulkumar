@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="container">
+    <div id="display">
+
+    <div id="time"></div>
+
+  </div>
+  <div id="alarm">
+    <input type="number" placeholder="hour" value="0" id="hour" max="12" min="0">
+    <input type="number" placeholder="min" value="0" id="min" max="60" min="0">
+    <input type="number" placeholder="sec" value="0" id="sec" max="60" min="0">
+    <select name="" id="am-pm">
+      <option value="">AM</option>
+      <option value="">PM</option>
+    </select>
+
+    <!-- <input  type="button" placeholder="button" value='button'> -->
+    <button id="btn">Button</button>
+  </div>
+  <div id="list">
+    <ul id="list"></ul>
+  </div>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
